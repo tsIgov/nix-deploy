@@ -11,7 +11,7 @@
   in 
   {
     packages."x86_64-linux" = {
-      system = import ./system { inherit pkgs; };
+      host = import ./host { inherit pkgs; };
       user = import ./user { inherit pkgs; };
     };
   };
