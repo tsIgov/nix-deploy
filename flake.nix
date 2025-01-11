@@ -1,5 +1,5 @@
 {
-  description = "Aether desktop environment";
+  description = "Used to deploy personal NixOS host and user configurations through 'nix run'.";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
