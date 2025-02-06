@@ -18,6 +18,6 @@ rm -rf ~/nix-deploy-temp
 cd ~
 
 nix registry add aether "github:tsIgov/aether-desktop-environment"
-nix registry add user-presets "github:tsIgov/nix-presets?dir=user"
+nix registry add presets "github:tsIgov/nix-presets"
 
 home-manager switch

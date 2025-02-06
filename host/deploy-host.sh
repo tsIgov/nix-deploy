@@ -16,7 +16,6 @@ rm -rf ~/nix-deploy-temp
 cd ~
 
 nix registry add aether "github:tsIgov/aether-desktop-environment"
-nix registry add system-presets "github:tsIgov/nix-presets?dir=system"
 
 sudo nixos-generate-config
 sudo nixos-rebuild switch --flake /etc/nixos#$BRANCH
