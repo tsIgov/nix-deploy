@@ -15,7 +15,5 @@ sudo mv nix-hosts /etc/nixos
 rm -rf ~/nix-deploy-temp
 cd ~
 
-nix registry add aether "github:tsIgov/aether-desktop-environment"
-
 sudo nixos-generate-config
 sudo nixos-rebuild switch --flake /etc/nixos#$BRANCH
